@@ -74,9 +74,9 @@ All models used pre-trained ImageNet weights and a custom classification head.
 
 ## Performance Comparison
 
-All three models achieved **100% validation accuracy** after a few epochs. However, since the dataset was very small, the results may be **trivially high** and not generalize well to unseen data. Below is the ROC curve comparison:
+All three models achieved **100% validation accuracy** after a few epochs. However, since the dataset was very small, the results may be influence by the structure and the clarity of the dataset. Below is the ROC curve comparison:
 
-![](Pictures/final_roccurves.png)
+![](Pictures/ROCCurvesFinal.png)
 
 ---
 
