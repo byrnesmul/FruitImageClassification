@@ -123,8 +123,8 @@ All models achieved perfect accuracy (1.0) on the validation set, both with and 
 | `DataLoader.ipynb`            | Loads and prepares the dataset             |
 | `TrainBaseModel.ipynb`        | Baseline training with MobileNetV2         |
 | `TrainBaseModelAugmentation.ipynb` | MobileNetV2 with data augmentation   |
-| `Train-EfficientNet.ipynb`    | Transfer learning using EfficientNetB0     |
-| `Train-MobileNet.ipynb`       | Transfer learning using MobileNetV2        |
+| `TrainEfficientNet.ipynb`    | Transfer learning using EfficientNetB0     |
+| `TrainMobileNet.ipynb`       | Transfer learning using MobileNetV2        |
 | `CompareAugmentation.ipynb`   | ROC curve comparison (augmented vs. baseline) |
 | `CompareModels.ipynb`         | ROC comparison of all three models         |
 | `Pictures/`                   | Folder for plots and image outputs         |
