@@ -36,7 +36,9 @@ The goal of this project is to build an image classification model that identifi
 
 - Augmentations applied: RandomFlip, RandomRotation, RandomZoom
 - Augmented samples were visualized to verify transformations
-
+- 
+![](Pictures/fruits1.png)
+![](Pictures/fruits2.png)
 ---
 
 ### Problem Formulation
