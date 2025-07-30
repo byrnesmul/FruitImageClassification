@@ -20,9 +20,10 @@ The goal of this project is to build an image classification model that identifi
 - **Classes**: Apple_5, Banana_1, Cherry_1, Kiwi_1, Orange_1
 - **Input size**: 100x100 or 224x224 RGB images
 - **Subset**: ~100 images per class
-  
+
 **Dataset Source**  
 This project uses a subset of the [Fruits 360 dataset](https://www.kaggle.com/datasets/moltean/fruits) from Kaggle, originally published by Horea Mureșan. The full dataset contains over 138,000 images across 206 categories (fruits, vegetables, nuts, seeds). Images were collected under controlled lighting conditions and placed on plain white or dark backgrounds to ensure consistent quality. We selected a small subset of 5 classes for quick prototyping.
+
 ---
 
 ### Preprocessing
