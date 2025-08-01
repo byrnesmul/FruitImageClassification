@@ -89,11 +89,11 @@ All three models achieved **100% validation accuracy** after a few epochs. Howev
 
 ## Conclusions
 
-Training without data augmentation showed steady performance improvements, with validation accuracy reaching 96% by the final epoch. After applying standard augmentation techniques such as random flips, rotations, and zoom, all three models—ResNet50, EfficientNetB0, and MobileNetV2—achieved 100% validation accuracy. While this initially suggested excellent generalization, the results appeared unexpectedly high given the small dataset size and limited class diversity.
+Training without data augmentation showed steady performance improvements, with validation accuracy reaching 96% by the final epoch. After applying standard augmentation techniques such as random flips, rotations, and zoom, all three models: ResNet50, EfficientNetB0, and MobileNetV2 achieved 100% validation accuracy. While this initially suggested excellent generalization, the results appeared unexpectedly high given the small dataset size and limited class diversity.
 
 Closer inspection revealed that the dataset was highly structured: images were clean, objects centered, and fruit classes clearly distinguishable by color and shape. This likely made the classification task relatively easy, allowing models to learn simple visual cues rather than deep, generalizable features.
 
-To explore this further, a more rigorous test is planned: progressively reducing the number of training images per class—starting from just one image—to examine how model performance scales with dataset size. This will help evaluate whether the models are genuinely learning meaningful patterns or simply fitting to a visually simple dataset.
+To explore this further, a more rigorous test is planned: progressively reducing the number of training images per class, starting from just one image to examine how model performance scales with dataset size. This will help evaluate whether the models are genuinely learning meaningful patterns or simply fitting to a visually simple dataset.
 
 ---
 
